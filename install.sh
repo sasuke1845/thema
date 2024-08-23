@@ -64,7 +64,7 @@ check_token() {
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "RuztanXD" ]; then
+  if [ "$USER_TOKEN" = "jbmemek" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
     echo -e "${GREEN}Buy dulu wkww Ke Flixx officiall Telegram @FlixxOfficiall${NC}"
@@ -90,7 +90,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/RuztanHosting/RuzPrivat/raw/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/sasuke1845/raw/main/C2.zip")
         break
         ;;
       2)
@@ -243,7 +243,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/C2.zip https://github.com/RuztanHosting/RuzPrivat/raw/main/C2.zip
+wget -O /root/C2.zip https://github.com/sasuke1845/raw/main/C2.zip
 
 # Ekstrak file tema
 unzip /root/C2.zip -d /root/pterodactyl
